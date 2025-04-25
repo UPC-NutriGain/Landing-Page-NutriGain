@@ -1,70 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>NutriGain</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
 
-   <header>
-      <nav class="navbar">
-        <div class="logo">
-          <img src="assets/logo.png" alt="NutriGain logo" class="navbar-logo" />
-        </div>
-      
-        <ul class="nav-left desktop-menu">
-          <li><a href="#about">About the app</a></li>
-          <li><a href="#paths">Paths</a></li>
-          <li><a href="#pricing">Pricing</a></li>
-          <li><a href="#team">Team</a></li>
-        </ul>
-      
-        <ul class="nav-right desktop-menu">
-          <li><a href="#team">About us</a></li>
-          <li><a href="#login">Log In</a></li>
-          <li id="lang-toggle"></li>
-        </ul>
-      
-        <div id="menu-toggle" class="menu-toggle" aria-label="Toggle menu">☰</div>
-      </nav>
-      
-      <div class="mobile-menu">
-        <ul>
-          <li><a href="#about">About the app</a></li>
-          <li><a href="#paths">Paths</a></li>
-          <li><a href="#pricing">Pricing</a></li>
-          <li><a href="#team">About us</a></li>
-          <li><a href="#login">Log In</a></li>
-          <li id="lang-toggle-mobile"></li>
-        </ul>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="assets/logo.png" alt="NutriGain logo" class="navbar-logo" />
       </div>
-      
-    </header>
+
+      <ul class="nav-left desktop-menu">
+        <li><a href="#about">About the aaaapp</a></li>
+        <li><a href="#paths">Paths</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#team">Team</a></li>
+      </ul>
+
+      <ul class="nav-right desktop-menu">
+        <li><a href="#team">About us</a></li>
+        <li><a href="#login">Log In</a></li>
+        <li id="lang-toggle"></li>
+      </ul>
+
+      <div id="menu-toggle" class="menu-toggle" aria-label="Toggle menu">☰</div>
+    </nav>
+
+    <div class="mobile-menu">
+      <ul>
+        <li><a href="#about">About the app</a></li>
+        <li><a href="#paths">Paths</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#team">About us</a></li>
+        <li><a href="#login">Log In</a></li>
+        <li id="lang-toggle-mobile"></li>
+      </ul>
+    </div>
+
+  </header>
 
 
-      <section class="hero fade-in-up">
-        <div class="hero-left delay-1">
-          <h1>
-            Go <span class="green">healthy</span>, choose a 
-            <span class="rainbow">PATH</span> <br />
-            and BECOME the <span class="yellow">BEST YOU</span> 💪
-          </h1>
-          <p>
-            Wanna be aesthetic and strong? or perform better at sports? or even be more flexible? <br />
-            We help you create a <span class="highlight-quality">high-quality</span> plan to reach these goals
-          </p>
-          <div class="hero-cta">
-            <button class="get-started">Get Started</button>
-          </div>
-        </div>
-        
-        <div class="hero-right delay-2">
-          <img src="assets/hero-avatar.png" alt="Fitness Avatar" />
-        </div>
-      </section>
-  
+  <section class="hero fade-in-up">
+    <div class="hero-left delay-1">
+      <h1>
+        Go <span class="green">healthy</span>, choose a
+        <span class="rainbow">PATH</span> <br />
+        and BECOME the <span class="yellow">BEST YOU</span> 💪
+      </h1>
+      <p>
+        Wanna be aesthetic and strong? or perform better at sports? or even be more flexible? <br />
+        We help you create a <span class="highlight-quality">high-quality</span> plan to reach these goals
+      </p>
+      <div class="hero-cta">
+        <button class="get-started">Get Started</button>
+      </div>
+    </div>
+
+    <div class="hero-right delay-2">
+      <img src="assets/hero-avatar.png" alt="Fitness Avatar" />
+    </div>
+  </section>
+
+  <section id="pricing" class="pricing-section">
+    <h2 class="fade-in-up delay-1">Pricing</h2>
+    <p class="fade-in-up delay-1">Choose the plan that best fits your fitness journey</p>
+
+    <div class="pricing-cards">
+      <!-- Plan Básico -->
+      <div class="plan-card zoom-in delay-2">
+        <h3>Basic Plan</h3>
+        <p class="price">Free</p>
+        <ul>
+          <li>🔹 Access to 1 fitness path (no switching)</li>
+          <li>🔹 Basic non-customizable avatar</li>
+          <li>🔹 Weekly general workout plan</li>
+          <li>🔹 Generic nutrition tips</li>
+          <li>🔹 Random weekly challenges</li>
+          <li>🔹 Ads included</li>
+        </ul>
+        <button class="plan-button">Start Free</button>
+      </div>
+
+      <!-- Plan Premium -->
+      <div class="plan-card premium zoom-in delay-3">
+        <h3>Premium Plan</h3>
+        <p class="price">$9.99/mo or $99/year</p>
+        <ul>
+          <li>🌟 Access to all fitness paths + switch anytime</li>
+          <li>🌟 Fully customizable avatar that evolves</li>
+          <li>🌟 100% personalized weekly workout plans</li>
+          <li>🌟 Custom meal plans based on preferences/goals</li>
+          <li>🌟 Extreme weekly challenge with fun tasks</li>
+          <li>🌟 Advanced progress tracking and insights</li>
+          <li>🌟 No ads, only gains 💪</li>
+          <li>🌟 Exclusive content: video tutorials, recipes, tips</li>
+        </ul>
+        <button class="plan-button premium-button">Go Premium</button>
+      </div>
+    </div>
+  </section>
+
   <script src="script.js"></script>
 </body>
+
 </html>
