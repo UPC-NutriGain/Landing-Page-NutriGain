@@ -1,142 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>NutriGain</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
-
-  <header>
-    <nav class="navbar">
-      <div class="logo">
-        <img src="assets/logo.png" alt="NutriGain logo" class="navbar-logo" />
-      </div>
-
-      <ul class="nav-left desktop-menu">
-        <li><a href="#about">About the aaaapp</a></li>
-        <li><a href="#paths">Paths</a></li>
-        <li><a href="#pricing">Pricing</a></li>
-        <li><a href="#team">Team</a></li>
-      </ul>
-
-      <ul class="nav-right desktop-menu">
-        <li><a href="#team">About us</a></li>
-        <li><a href="#login">Log In</a></li>
-        <li id="lang-toggle"></li>
-      </ul>
-
-      <div id="menu-toggle" class="menu-toggle" aria-label="Toggle menu">☰</div>
-    </nav>
-
-    <div class="mobile-menu">
-      <ul>
-        <li><a href="#about">About the app</a></li>
-        <li><a href="#paths">Paths</a></li>
-        <li><a href="#pricing">Pricing</a></li>
-        <li><a href="#team">About us</a></li>
-        <li><a href="#login">Log In</a></li>
-        <li id="lang-toggle-mobile"></li>
-      </ul>
-    </div>
-
-  </header>
-
- 
-
-  <section class="hero fade-in-up">
-    <div class="hero-left delay-1">
-      <h1>
-        Go <span class="green">healthy</span>, choose a
-        <span class="rainbow">PATH</span> <br />
-        and BECOME the <span class="yellow">BEST YOU</span> 💪
-      </h1>
-      <p>
-        Wanna be aesthetic and strong? or perform better at sports? or even be more flexible? <br />
-        We help you create a <span class="highlight-quality">high-quality</span> plan to reach these goals
-      </p>
-      <div class="hero-cta">
-        <button class="get-started">Get Started</button>
-      </div>
-    </div>
-
-    <div class="hero-right delay-2">
-      <img src="assets/hero-avatar.png" alt="Fitness Avatar" />
-    </div>
-  </section>
-
-  <section id="pricing" class="pricing-section">
-    <h2 class="fade-in-up delay-1">Pricing</h2>
-    <p class="fade-in-up delay-1">Choose the plan that best fits your fitness journey</p>
-
-    <div class="pricing-cards">
-      <!-- Plan Básico -->
-      <div class="plan-card zoom-in delay-2">
-        <h3>Basic Plan</h3>
-        <p class="price">Free</p>
-        <ul>
-          <li>🔹 Access to 1 fitness path (no switching)</li>
-          <li>🔹 Basic non-customizable avatar</li>
-          <li>🔹 Weekly general workout plan</li>
-          <li>🔹 Generic nutrition tips</li>
-          <li>🔹 Random weekly challenges</li>
-          <li>🔹 Ads included</li>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <img src="assets/logo.png" alt="NutriGain logo" class="navbar-logo" />
+        </div>
+      
+        <ul class="nav-left desktop-menu">
+          <li><a href="#about">About the app</a></li>
+          <li><a href="#paths">Paths</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#team">Team</a></li>
         </ul>
-        <button class="plan-button">Start Free</button>
-      </div>
-
-      <!-- Plan Premium -->
-      <div class="plan-card premium zoom-in delay-3">
-        <h3>Premium Plan</h3>
-        <p class="price">$9.99/mo or $99/year</p>
-        <ul>
-          <li>🌟 Access to all fitness paths + switch anytime</li>
-          <li>🌟 Fully customizable avatar that evolves</li>
-          <li>🌟 100% personalized weekly workout plans</li>
-          <li>🌟 Custom meal plans based on preferences/goals</li>
-          <li>🌟 Extreme weekly challenge with fun tasks</li>
-          <li>🌟 Advanced progress tracking and insights</li>
-          <li>🌟 No ads, only gains 💪</li>
-          <li>🌟 Exclusive content: video tutorials, recipes, tips</li>
+      
+        <ul class="nav-right desktop-menu">
+          <li><a href="#team">About us</a></li>
+          <li><a href="#login">Log In</a></li>
+          <li id="lang-toggle"></li>
         </ul>
-        <button class="plan-button premium-button">Go Premium</button>
+      
+        <div id="menu-toggle" class="menu-toggle" aria-label="Toggle menu">☰</div>
+      </nav>
+      
+      <div class="mobile-menu">
+        <ul>
+          <li><a href="#about">About the app</a></li>
+          <li><a href="#paths">Paths</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#team">About us</a></li>
+          <li><a href="#login">Log In</a></li>
+          <li id="lang-toggle-mobile"></li>
+        </ul>
+      </div>
+      
+    </header>
+
+
+      <section class="hero fade-in-up">
+        <div class="hero-left delay-1">
+          <h1>
+            Go <span class="green">healthy</span>, choose a 
+            <span class="rainbow">PATH</span> <br />
+            and BECOME the <span class="yellow">BEST YOU</span> 💪
+          </h1>
+          <p>
+            Wanna be aesthetic and strong? or perform better at sports? or even be more flexible? <br />
+            We help you create a <span class="highlight-quality">high-quality</span> plan to reach these goals
+          </p>
+          <div class="hero-cta">
+            <button class="get-started">Get Started</button>
+          </div>
+        </div>
+        
+        <div class="hero-right delay-2">
+          <img src="assets/hero-avatar.png" alt="Fitness Avatar" />
+        </div>
+
+
+      </section>
+         
+      
+      <section id="about" class="about-section">
+        <h4 class="fade-in-up zoom-in delay-1">About the app</h4>
+        <h2 class="fade-in-up zoom-in delay-1">What is NutriGain? One more gym app?</h2>
+        <p class="about-description fade-in-up zoom-in delay-1">
+          First of all, no, not at all. Our app transforms the way people train and eat, depending on what their goals are.
+          We help you track your training progress and weekly diet while keeping you inspired with challenges and avatars that evolve when you do too.
+        </p>
+        <div class="about-features">
+          <div class="feature-box zoom-in delay-1">
+            <img src="assets/icon-fitness.png" alt="Fitness icon" />
+            <h3>2 in 1 Fitness App</h3>
+            <p>Manage both your training routine and diet on 1 app.</p>
+          </div>
+          <div class="feature-box zoom-in delay-2">
+            <img src="assets/icon-evolve.png" alt="Evolve icon" />
+            <h3>Evolve with progress</h3>
+            <p>Unlock themes and items for your avatar when completing challenges or making progress.</p>
+          </div>
+          <div class="feature-box zoom-in delay-3">
+            <img src="assets/icon-customize.png" alt="Customize icon" />
+            <h3>Customize everything!</h3>
+            <p>Adapt your fitness plan based on your preferences.</p>
+          </div>
+        </div>
+      </section>
+      
+      <section id="paths" class="paths-section">
+        <div class="path red">
+          <div class="path-text slide-left delay-1">
+            <h2>Strength/Aesthetics Path</h2>
+            <p>This path is designed for those aiming to build muscle, gain strength, and sculpt their physique. Perfect for weightlifting, bodybuilding, or simply enhancing your physical appearance.</p>
+            <ul>
+              <li>Personalized gym routines</li>
+              <li>Progressive overload tracking and PR logging</li>
+              <li>Nutrition plan focused on muscle growth</li>
+            </ul>
+          </div>
+          <div class="path-image slide-right delay-2">
+            <img src="assets/strength-avatar.png" alt="Strength Path Avatar" />
+          </div>
+        </div>
+      
+        <div class="path blue reverse">
+          <div class="path-image slide-left delay-1">
+            <img src="assets/agility-avatar.png" alt="Agility Path Avatar" />
+          </div>
+          <div class="path-text slide-right delay-2">
+            <h2>Agility/Sports Path</h2>
+            <p>Tailored for athletes in sports like football, tennis, or volleyball, this path boosts speed, coordination, and endurance. Ideal for improving performance on the field or court.</p>
+            <ul>
+              <li>Agility, reaction, and cardio workouts</li>
+              <li>Plans synced with your sports calendar</li>
+              <li>Nutrition to enhance performance and recovery</li>
+            </ul>
+          </div>
+        </div>
+      
+        <div class="path pink">
+          <div class="path-text slide-left delay-1">
+            <h2>Yoga / Flexibility</h2>
+            <p>This path emphasizes mind-body connection, enhancing flexibility, balance, and overall well-being. Great for a calmer, yet effective routine.</p>
+            <ul>
+              <li>Guided yoga and meditation sessions</li>
+              <li>Mobility and mindful breathing exercises</li>
+              <li>Balanced nutrition for energy and relaxation</li>
+            </ul>
+          </div>
+          <div class="path-image slide-right delay-2">
+            <img src="assets/yoga-avatar.png" alt="Yoga Path Avatar" />
+          </div>
+        </div>
+      </section>
+      
+      <section id="pricing" class="pricing-section">
+        <h2 class="fade-in-up delay-1">Pricing</h2>
+        <p class="fade-in-up delay-1">Choose the plan that best fits your fitness journey</p>
+      
+        <div class="pricing-cards">
+          <!-- Plan Básico -->
+          <div class="plan-card zoom-in delay-2">
+            <h3>Basic Plan</h3>
+            <p class="price">Free</p>
+            <ul>
+              <li>🔹 Access to 1 fitness path (no switching)</li>
+              <li>🔹 Basic non-customizable avatar</li>
+              <li>🔹 Weekly general workout plan</li>
+              <li>🔹 Generic nutrition tips</li>
+              <li>🔹 Random weekly challenges</li>
+              <li>🔹 Ads included</li>
+            </ul>
+            <button class="plan-button">Start Free</button>
+          </div>
+      
+          <!-- Plan Premium -->
+          <div class="plan-card premium zoom-in delay-3">
+            <h3>Premium Plan</h3>
+            <p class="price">$9.99/mo or $99/year</p>
+            <ul>
+              <li>🌟 Access to all fitness paths + switch anytime</li>
+              <li>🌟 Fully customizable avatar that evolves</li>
+              <li>🌟 100% personalized weekly workout plans</li>
+              <li>🌟 Custom meal plans based on preferences/goals</li>
+              <li>🌟 Extreme weekly challenge with fun tasks</li>
+              <li>🌟 Advanced progress tracking and insights</li>
+              <li>🌟 No ads, only gains 💪</li>
+              <li>🌟 Exclusive content: video tutorials, recipes, tips</li>
+            </ul>
+            <button class="plan-button premium-button">Go Premium</button>
+          </div>
+        </div>
+      </section>
+      
+
+  <section id="team" class="team-section">
+    <h4>Team</h4>
+    <h2>About us</h2>
+    <p>Meet the big brains behind this app:</p>
+    <div class="team-members">
+      <div class="member zoom-in delay-1">
+        <img src="assets/Sebastian.png" alt="Sebastian Méndez" />
+        <h3>Sebastian Méndez</h3>
+        <p>Ingeniería de Software</p>
+      </div>
+      <div class="member zoom-in delay-2">
+        <img src="assets/Diego.jpg" alt="NDiego Pumahualcca" />
+        <h3>Diego Pumahualcca</h3>
+        <p>Ingeniería de Software</p>
+      </div>
+      <div class="member zoom-in delay-3">
+        <img src="assets/Santiago.jpg" alt="Santiago Gordillo" />
+        <h3>Santiago Gordillo</h3>
+        <p>Ingeniería de Software</p>
+      </div>
+      <div class="member zoom-in delay-4">
+        <img src="assets/Nicolas.png" alt="Nicolas Vera" />
+        <h3>Nicolas Vera</h3>
+        <p>Ingeniería de Software</p>
+      </div>
+      <div class="member zoom-in delay-5">
+        <img src="assets/Ariana.jpg" alt="Ariana Huapaya" />
+        <h3>Ariana Huapaya</h3>
+        <p>Ingeniería de Software</p>
       </div>
     </div>
   </section>
+  
 
-  <section id="about" class="about-section">
-    <h4 class="fade-in-up zoom-in delay-1">About the app</h4>
-    <h2 class="fade-in-up zoom-in delay-1">What is NutriGain? One more gym app?</h2>
-    <p class="about-description fade-in-up zoom-in delay-1">
-      First of all, no, not at all. Our app transforms the way people train and eat, depending on what their goals are.
-      We help you track your training progress and weekly diet while keeping you inspired with challenges and avatars that evolve when you do too.
-    </p>
-    <div class="about-features">
-      <div class="feature-box zoom-in delay-1">
-        <img src="assets/icon-fitness.png" alt="Fitness icon" />
-        <h3>2 in 1 Fitness App</h3>
-        <p>Manage both your training routine and diet on 1 app.</p>
-      </div>
-      <div class="feature-box zoom-in delay-2">
-        <img src="assets/icon-evolve.png" alt="Evolve icon" />
-        <h3>Evolve with progress</h3>
-        <p>Unlock themes and items for your avatar when completing challenges or making progress.</p>
-      </div>
-      <div class="feature-box zoom-in delay-3">
-        <img src="assets/icon-customize.png" alt="Customize icon" />
-        <h3>Customize everything!</h3>
-        <p>Adapt your fitness plan based on your preferences.</p>
-      </div>
+  
+  <footer class="footer-section fade-in-up delay-4">
+
+    <img src="assets/logo.png" alt="NutriGain footer logo" class="footer-logo" />
+  
+    <div class="footer-column center-column">
+      <p>© 2025 NutriGain. All rights reserved.</p>
     </div>
-  </section>
-
+  
+    <div class="footer-column social-column">
+      <a href="#" aria-label="YouTube"><img src="assets/youtube.png" alt="YouTube" class="social-icon" /></a>
+      <a href="#" aria-label="Instagram"><img src="assets/instagram1.png" alt="Instagram" class="social-icon" /></a>
+      <a href="#" aria-label="Facebook"><img src="assets/facebook1.png" alt="Facebook" class="social-icon" /></a>      
+    </div>    
+  </footer>
 
   <script src="script.js"></script>
 </body>
-
-
-
 </html>
