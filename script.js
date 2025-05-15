@@ -205,3 +205,10 @@ document.getElementById("menu-toggle").addEventListener("click", () => {
 document.getElementById("lang-toggle-mobile").addEventListener("click", () => {
   document.getElementById("lang-toggle").click();
 });
+
+function redirectToNutriGain() {
+  window.location.href = "https://nutri-gain-api-fake-fe9o.vercel.app/login";
+}
+
+
+
