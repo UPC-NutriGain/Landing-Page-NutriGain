@@ -207,7 +207,7 @@ document.getElementById("lang-toggle-mobile").addEventListener("click", () => {
 });
 
 function redirectToNutriGain() {
-  window.location.href = "https://nutri-gain-api-fake-fe9o.vercel.app/login";
+  window.location.href = "https://front-azl2.vercel.app/login";
 }
 
 
